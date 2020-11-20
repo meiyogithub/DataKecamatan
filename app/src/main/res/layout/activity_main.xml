@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15sp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/wisata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wisata Bekasi"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="50sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="276dp"
+        app:srcCompat="@drawable/bekasi" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="50sp" />
+
+    <Button
+        android:id="@+id/button_gowet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="WetWaterpack"
+        android:text="Go! Wet Waterpack"
+        app:backgroundTint="#2196F3" />
+
+    <Button
+        android:id="@+id/button_trasnsera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="TranseraWaterpack"
+        android:text="Transera Waterpack"
+        app:backgroundTint="#00BCD4" />
+
+    <Button
+        android:id="@+id/button_snow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trans Snow World"
+        android:onClick="TransSnow"
+        app:backgroundTint="#3F51B5" />
+
+    <TextView
+        android:id="@+id/developed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developed by RFA"
+        android:textAlignment="center" />
+</LinearLayout>

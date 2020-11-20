@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        tools:context=".TranseraActivity">
+
+
+        <TextView
+            android:id="@+id/tv_wet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transera Waterpack"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/transera" />
+
+        <TextView
+            android:id="@+id/tv_keterangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buat kamu yang di Bekasi atau yang sedang berkunjung ke Bekasi jangan lupa untuk bermain di Transera Waterpark Bekasi Kota Harapan Indah. Harga Tiket masuknya juga cukup terjangkau dengan fasilitas wahana permainan yang lengkap.  Terletak di Harapan Indah Boulevard Kavling V, Kota Harapan Indah, Kabupaten Bekasi Transera waterpark sangat cocok sebagai tempat alternatif rekreasi keluarga. Menawarkan wahana-wahana menarik dan seru pastinya baik untuk anak-anak maupun orang dewasa." />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:id="@+id/tv_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat :"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_isialamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kota Harapan Indah Boulevard Kavling V Sektor VI, Pusaka Rakyat, Kec. Tarumajaya, Bekasi, Jawa Barat 17214" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/button_menujulokasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menuju Lokasi" />
+    </LinearLayout>
+</ScrollView>

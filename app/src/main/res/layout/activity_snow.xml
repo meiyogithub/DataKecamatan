@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        tools:context=".TranseraActivity">
+
+
+        <TextView
+            android:id="@+id/tv_wet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trans Snow World"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/snow" />
+
+        <TextView
+            android:id="@+id/tv_keterangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trans Snow World Bekasi bisa menjadi pilihan tempat wisata yang unik. Menawarkan wahana permainan salju di dalam ruangan (indoor) seluas 6500m2 dengan daya tampung mencapai 1000 orang. Sangat cocok bagi yang ingin merasakan suasana salju tanpa perlu ke luar negeri atau ke pegunungan.  Beragam aktivitas dan wahana bisa dimainkan di suhu ruangan yang mencapai 10° Celsius. Wahana-wahana seperti basic sledge, snow scooter, snow playground, braker sledge, dll bisa dimainkan. Jadi siapkan jaket yang cukup tebal bagi pengunjung yang tidak tahan dengan suhu dingin." />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:id="@+id/tv_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat :"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_isialamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ir. H. Juanda No.180, Margahayu,Bekasi Timur,Bekasi,Jawa Barat,Indonesia,17113." />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/button_menujulokasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menuju Lokasi" />
+    </LinearLayout>
+</ScrollView>

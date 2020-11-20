@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".WetActivity">
+
+
+    <TextView
+        android:id="@+id/tv_wet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go! Wet Waterpack"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/wet" />
+
+    <TextView
+        android:id="@+id/tv_keterangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Explore Go! Wet waterpark di Grand Wisata Bekasi. Rasakan pengalaman bermain air bersama teman atau keluarga di berbagai wahana yang ada di Go! Wet." />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+    <TextView
+        android:id="@+id/tv_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat :"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_isialamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grand Wisata Bekasi Jl. Southern, Jl. Boulevard Raya No.Kav. 1, Lambangjaya, Kec. Tambun Sel., Bekasi, Jawa Barat 17510" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/button_menujulokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menuju Lokasi" />
+</LinearLayout>
+</ScrollView>
